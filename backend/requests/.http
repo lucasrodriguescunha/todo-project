@@ -1,0 +1,14 @@
+# POST http://localhost:3333/todos
+# Content-Type: application/json
+
+# {
+#   "description": "Estudar Node.js 2"
+# }
+
+GET http://localhost:3333/todos
+Content-Type: application/json
+
+{
+  "description": "Estudar Node.js"
+}
+
